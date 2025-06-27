@@ -19,7 +19,7 @@ ARCHIVOS INCLUIDOS:
 - Aggregate Report.png → Detalle por cada request con promedio, errores y rendimiento.
 - Summary Report.png → Estadísticas como tiempo promedio, errores y número de peticiones procesadas por segundo.
 - Response Time Graph.png → Gráfica visual del tiempo de respuesta a lo largo de la prueba.
-- View Results in table  Detalle de cada petición con tiempo de respuesta y estado.
+- View Results in tablepng →  Detalle de cada petición con tiempo de respuesta y estado.
 - "conclusiones.txt" → Análisis y hallazgos de la prueba.
 - "readme.txt" → Instrucciones de ejecución.
 
