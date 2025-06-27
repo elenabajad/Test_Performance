@@ -8,9 +8,9 @@ INSTRUCCIONES DE EJECUCIÓN:
 
 VALIDACIONES QUE REALIZA LA PRUEBA:
 -----------------------------------
-- El tiempo de respuesta no debe superar los **1.5 segundos** por solicitud.
-- La **tasa de error** aceptada es menor al **3%**.
-- La prueba está configurada para alcanzar un mínimo de **20(TPS)** usando múltiples hilos ("Threads" en el Test Plan).
+- El tiempo de respuesta no debe superar los 1.5 segundos por solicitud.
+- La tasa de error aceptada es menor al 3%.
+- La prueba está configurada para alcanzar un mínimo de 20(TPS) usando múltiples hilos ("Threads" en el Test Plan).
 
 ARCHIVOS INCLUIDOS:
 --------------------------------------
