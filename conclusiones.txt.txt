@@ -1,0 +1,14 @@
+CONCLUSIONES Y RECOMENDACIONES
+----------------------------
+Se ejecutó una prueba de carga simulando múltiples usuarios concurrentes utilizando JMeter, empleando como base de datos de entrada el archivo "users.csv".
+
+2. El sistema logró alcanzar los 20 TPS requeridos mediante la configuración de múltiples hilos y un ramp-up corto.
+
+3. Validaciones:
+   - El 100% de las respuestas estuvieron por debajo del umbral de 1.5 segundos en la mayoría de los intentos.
+   - La tasa de error observada fue inferior al 3%, cumpliendo con el criterio de aceptación.
+   - Se detectó que con cargas mayores (más de 50 TPS), algunas respuestas comenzaron a exceder ligeramente el tiempo de respuesta definido.
+
+4. Recomendaciones:
+   - Implementar validación más estricta para manejo de credenciales inválidas.
+   - Automatizar pruebas recurrentes de rendimiento dentro de una integración continua si el servicio se actualiza regularmente.
